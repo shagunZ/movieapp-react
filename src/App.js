@@ -7,7 +7,8 @@ const API = "3486479a17987c537f11bc5d054db1ad"
 const FEATURED_API= "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3486479a17987c537f11bc5d054db1ad&page=1"
 
 const IMG_API= "https://image.tmdb.org/t/p/w500"
-const SEARCH_API="https://api.themoviedb.org/3/search/movie?&api_key=3486479a17987c537f11bc5d054db1ad&query="
+//remove this comment
+//const SEARCH_API="https://api.themoviedb.org/3/search/movie?&api_key=3486479a17987c537f11bc5d054db1ad&query="
 function App() {
 
   const [movies,setMovies]  = useState([])
